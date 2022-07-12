@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@500;700&display=swap');
+
+#title{
+    font-family: "Montserrat", sans-serif;
+    font-size: 28px;
+    color: #33303E;
+}
+
+label{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.contato{
+    width: 100%;
+    max-width: 500px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.field{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #D8D8E8;
+    border-radius: 6px;
+    outline: none;
+}
+
+textarea{
+    height: 150px;
+}
+
+#button{
+    background-color: #623CEA;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Formulário de Contato</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="content">
+            <div class="contato">
+                <h3 id="title">Formulário de Contato</h3>
+                <form class="form" method="POST" action="email.php">
+                    <label>Nome</label>
+                    <input class="field" name="name" required>
+                    <label>Email</label>
+                    <input class="field" name="email" required>
+                    <textarea class="field" name="message" placeholder="Digite o texto que será enviado." required></textarea>
+                    <input class="field" id="button" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </body>
+</html>
